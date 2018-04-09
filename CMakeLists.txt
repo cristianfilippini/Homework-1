@@ -122,7 +122,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/Homework-1.cpp
+#   src/${PROJECT_NAME}/homework_1.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -140,6 +140,9 @@ target_link_libraries(talker ${catkin_LIBRARIES})
 
 add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
+
+add_executable(selector src/selector.cpp)
+target_link_libraries(selector ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
