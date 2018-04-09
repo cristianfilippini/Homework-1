@@ -14,7 +14,8 @@ int main(int argc, char **argv)
   ros::NodeHandle n;
   ros::Subscriber sub = n.subscribe("selector", 1000, selectorCallback);
   ros::spin();
-  
+
+
   return 0;
 }
 
