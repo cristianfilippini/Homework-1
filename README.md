@@ -5,13 +5,11 @@ VR397728
 id598ult@studenti.univr.it
 07/04/2018
 
-
-per lanciare il programma è possibile utilizzare il comando rolaunch in quanto presente un launcher.
-
 Homework 1
 
 La soluzione che ho previsto per questo homework parte da un messaggio che arbitrariamente contiene tre campi divisi ognuno dal carattere ":".
-Può essere lanciata tramite apposito launcher, dove i messaggi inviati dal talker non saranno visibili, saranno presenti due finestre di terminale, rispettivamente per selector e listener
+Può essere lanciata tramite apposito launcher.ò
+I messaggi inviati dal talker non saranno visibili, saranno presenti due finestre di terminale, rispettivamente per i nodi selector e listener.
 
 ---TALKER---
 Il nodo talker (talker.cpp) invia ogni secondo il messaggio con il proprio publisher sul topic "chatter".
